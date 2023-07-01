@@ -1,9 +1,16 @@
+import kivy
+
 from kivy.app import App
-from kivy.uix.widget import Widget
-from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.button import Button
-from kivy.uix.gridlayout import GridLayout
-from kivy.properties import StringProperty, BooleanProperty
+
+
+class MyApp(App):
+    def build(self):
+        return Button(text='Hello World')
+
+
+if __name__ == '__main__':
+    MyApp().run()port StringProperty, BooleanProperty
 
 
 class WidgetExample(GridLayout):
