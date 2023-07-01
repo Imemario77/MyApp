@@ -7,7 +7,7 @@ class SampleApp(MDApp):
         self.appKv='''
 MDScreen:
     MDLabel:
-        text:'Hello,Mario.'
+        text:'Hello,World.'
         multiline:True
         halign:'center'         
 '''
@@ -15,3 +15,4 @@ MDScreen:
         return AppScreen
 
 SampleApp().run()
+    
