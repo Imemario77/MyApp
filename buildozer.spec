@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = MyApo
+title = MyApp
 
 # (str) Package name
 package.name = mario
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.test
+package.domain = org.Test2
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,Pillow
+requirements = python3,kivy==2.1.0,kivymd==0.104.2,pillow==8.3.1
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -64,14 +64,14 @@ orientation = portrait
 # author = © Copyright Info
 
 # Kivy version to use
-osx.kivy_version = 2.0.0
+osx.kivy_version = 2.1.0
 
 #
 # Android specific
 #
 
 # (bool) Indicate if the application should be fullscreen or not
-fullscreen = 1
+fullscreen = 0
 
 # (string) Presplash background color (for android toolchain)
 # Supported formats are: #RRGGBB #AARRGGBB or one of the following names:
