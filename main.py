@@ -6,7 +6,7 @@ from kivy.uix.button import Button
 
 class MyApp(App):
     def build(self):
-        return Button(text='Hello World')
+        return Button(text='Hello Mario i made this')
 
 
 if __name__ == '__main__':
